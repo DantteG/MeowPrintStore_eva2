@@ -1,0 +1,348 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:1:1-22:12
+INJECTED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:1:1-22:12
+INJECTED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:1:1-22:12
+INJECTED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:1:1-22:12
+MERGED from [androidx.databinding:databinding-adapters:8.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e6e5217e017e1f572fd71edc9cba3cc8\transformed\databinding-adapters-8.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:databinding-ktx:8.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\a9dbaf005d5e49467d20a750779b0da8\transformed\jetified-databinding-ktx-8.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:databinding-runtime:8.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\668f3d9c9016524c5217d82fafc6ece5\transformed\databinding-runtime-8.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:viewbinding:8.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\db4962434c6dd3821b9ffe1dc849ece7\transformed\jetified-viewbinding-8.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\1298414f4d97a083e20357c9a88f4004\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f5e300436124ef23a60650af713b4dc7\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\5ec5ba24712f277920355d9fa589e734\transformed\jetified-appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\b713e38ec248562f12a668a6c9837ccc\transformed\appcompat-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:5.0.5] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f5ee7e3f07dc536c5a91bb3de68affc4\transformed\jetified-glide-5.0.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\8121ec0ae60662bd62eb2ae5f04da255\transformed\recyclerview-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\9535e067111ef108324f6a0b17a7cc29\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\df26cb3009024f5bf1c34d4ce6e253f6\transformed\fragment-1.8.9\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.8.9] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e887beba56c8625e0b26fb68a24c0b76\transformed\jetified-fragment-ktx-1.8.9\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e5b91655c94bc76aa15e1b4a793455c4\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\13528a9a30f0abdc590f2e1f4e9f3400\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\d4c54dc2e535ec20432010bafa9ff955\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\5ddb00c52813cbd0f2e371e9fb550497\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e0f42163c48c7e9e88b1da5c710ffdfd\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\5c389585679969e8a5ceb76c7d4fad98\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\071ce98cc40a2afca23d212bb806dd22\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\d400efc25e151e36d3fbb3ad20d8a7cb\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\4ef0cf73bb2107cbfed3bfc036194094\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\c7db70e4b806c1e568e05fe4c2b99174\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\1369268760d64f7d2344ac7d6b3b7de4\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.activity:activity-ktx:1.11.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\a0ad5468c603e7075c57a2e180056bbb\transformed\jetified-activity-ktx-1.11.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.11.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\65f76efa2afde3dc591476b854d149ba\transformed\jetified-activity-1.11.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\03b09c9237f1371d9f26860cff2342cc\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\006c70460ea975ae8f75ef1d87d6fb4f\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\24ca5610a38e9a3427a9a15552459686\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\127892a405b2c030a839f8a52007eadf\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\64d48b2c7ba208d4aa0e641538b4341d\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\a74c9c4df6f45683fbee86c705202985\transformed\jetified-lifecycle-service-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\84f645a045cc27049eee6f4eda616486\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\65ec4f4bbb6dbcf526cc901d07e9301d\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\74d4c1d95e22debf10b72a6b0f186bf8\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\4a1a9bd7182a21bbd3b8649f2a3fc1e4\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\b6f2a7f13e1ffa062475463bfac5a0f2\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08f0f3bc9cdab8203fb98e990d58d8e4\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\047e3a840826596b05e7159cb30f6672\transformed\jetified-core-ktx-1.17.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:2:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\8a9d3d4f94765eae6fbe57f444653b86\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\09b1c65abb57fe828d40db31e74af079\transformed\jetified-core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\2b61a754d2bdb8308da770e0eda8a560\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\1929ed1ddd6f137776f6b7da14defc08\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\5cf52d52f5117a984ce13c3fbc082efa\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [com.github.bumptech.glide:gifdecoder:5.0.5] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\239d5ba7e5b4eb2809f8f3b8491ae276\transformed\jetified-gifdecoder-5.0.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\182d6e34342fcafb1d9f9cc20b76aadc\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\9a8693ac640f2ecbd8649c0391df8003\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\aa6b23aee1c7f5ede589345d1ee7a049\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f95412144d24041b582f62e004449b91\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\154f91bbf18b861399e16d5b2f6e5aec\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:disklrucache:5.0.5] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\2c782bfda88236f9bf2090a4b359d462\transformed\jetified-disklrucache-5.0.5\AndroidManifest.xml:2:1-7:12
+	package
+		ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:2:5-34
+		INJECTED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:4:5-66
+MERGED from [com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:8:5-67
+MERGED from [com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:6:5-21:19
+INJECTED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:6:5-21:19
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\1298414f4d97a083e20357c9a88f4004\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\1298414f4d97a083e20357c9a88f4004\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f5e300436124ef23a60650af713b4dc7\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f5e300436124ef23a60650af713b4dc7\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:10:5-20:19
+MERGED from [com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:10:5-20:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\2b61a754d2bdb8308da770e0eda8a560\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\2b61a754d2bdb8308da770e0eda8a560\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\9a8693ac640f2ecbd8649c0391df8003\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\9a8693ac640f2ecbd8649c0391df8003\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:23:5-29:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:8:9-40
+	android:icon
+		ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:10:9-77
+activity#com.meowprint.store.ui.HomeActivity
+ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:11:9-53
+	android:name
+		ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:11:19-50
+activity#com.meowprint.store.ui.MainActivity
+ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:12:9-19:20
+	android:exported
+		ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:13:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:8.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e6e5217e017e1f572fd71edc9cba3cc8\transformed\databinding-adapters-8.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-adapters:8.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e6e5217e017e1f572fd71edc9cba3cc8\transformed\databinding-adapters-8.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-ktx:8.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\a9dbaf005d5e49467d20a750779b0da8\transformed\jetified-databinding-ktx-8.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-ktx:8.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\a9dbaf005d5e49467d20a750779b0da8\transformed\jetified-databinding-ktx-8.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\668f3d9c9016524c5217d82fafc6ece5\transformed\databinding-runtime-8.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\668f3d9c9016524c5217d82fafc6ece5\transformed\databinding-runtime-8.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\db4962434c6dd3821b9ffe1dc849ece7\transformed\jetified-viewbinding-8.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\db4962434c6dd3821b9ffe1dc849ece7\transformed\jetified-viewbinding-8.13.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\1298414f4d97a083e20357c9a88f4004\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\1298414f4d97a083e20357c9a88f4004\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f5e300436124ef23a60650af713b4dc7\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f5e300436124ef23a60650af713b4dc7\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\5ec5ba24712f277920355d9fa589e734\transformed\jetified-appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\5ec5ba24712f277920355d9fa589e734\transformed\jetified-appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\b713e38ec248562f12a668a6c9837ccc\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\b713e38ec248562f12a668a6c9837ccc\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:5.0.5] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f5ee7e3f07dc536c5a91bb3de68affc4\transformed\jetified-glide-5.0.5\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:5.0.5] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f5ee7e3f07dc536c5a91bb3de68affc4\transformed\jetified-glide-5.0.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\8121ec0ae60662bd62eb2ae5f04da255\transformed\recyclerview-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\8121ec0ae60662bd62eb2ae5f04da255\transformed\recyclerview-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\9535e067111ef108324f6a0b17a7cc29\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\9535e067111ef108324f6a0b17a7cc29\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\df26cb3009024f5bf1c34d4ce6e253f6\transformed\fragment-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\df26cb3009024f5bf1c34d4ce6e253f6\transformed\fragment-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.9] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e887beba56c8625e0b26fb68a24c0b76\transformed\jetified-fragment-ktx-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.9] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e887beba56c8625e0b26fb68a24c0b76\transformed\jetified-fragment-ktx-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e5b91655c94bc76aa15e1b4a793455c4\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e5b91655c94bc76aa15e1b4a793455c4\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\13528a9a30f0abdc590f2e1f4e9f3400\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\13528a9a30f0abdc590f2e1f4e9f3400\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\d4c54dc2e535ec20432010bafa9ff955\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\d4c54dc2e535ec20432010bafa9ff955\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\5ddb00c52813cbd0f2e371e9fb550497\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\5ddb00c52813cbd0f2e371e9fb550497\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e0f42163c48c7e9e88b1da5c710ffdfd\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e0f42163c48c7e9e88b1da5c710ffdfd\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\5c389585679969e8a5ceb76c7d4fad98\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\5c389585679969e8a5ceb76c7d4fad98\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\071ce98cc40a2afca23d212bb806dd22\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\071ce98cc40a2afca23d212bb806dd22\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\d400efc25e151e36d3fbb3ad20d8a7cb\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\d400efc25e151e36d3fbb3ad20d8a7cb\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\4ef0cf73bb2107cbfed3bfc036194094\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\4ef0cf73bb2107cbfed3bfc036194094\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\c7db70e4b806c1e568e05fe4c2b99174\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\c7db70e4b806c1e568e05fe4c2b99174\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\1369268760d64f7d2344ac7d6b3b7de4\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\1369268760d64f7d2344ac7d6b3b7de4\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.activity:activity-ktx:1.11.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\a0ad5468c603e7075c57a2e180056bbb\transformed\jetified-activity-ktx-1.11.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.11.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\a0ad5468c603e7075c57a2e180056bbb\transformed\jetified-activity-ktx-1.11.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.11.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\65f76efa2afde3dc591476b854d149ba\transformed\jetified-activity-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.11.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\65f76efa2afde3dc591476b854d149ba\transformed\jetified-activity-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\03b09c9237f1371d9f26860cff2342cc\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\03b09c9237f1371d9f26860cff2342cc\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\006c70460ea975ae8f75ef1d87d6fb4f\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\006c70460ea975ae8f75ef1d87d6fb4f\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\24ca5610a38e9a3427a9a15552459686\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\24ca5610a38e9a3427a9a15552459686\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\127892a405b2c030a839f8a52007eadf\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\127892a405b2c030a839f8a52007eadf\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\64d48b2c7ba208d4aa0e641538b4341d\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\64d48b2c7ba208d4aa0e641538b4341d\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\a74c9c4df6f45683fbee86c705202985\transformed\jetified-lifecycle-service-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\a74c9c4df6f45683fbee86c705202985\transformed\jetified-lifecycle-service-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\84f645a045cc27049eee6f4eda616486\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\84f645a045cc27049eee6f4eda616486\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\65ec4f4bbb6dbcf526cc901d07e9301d\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\65ec4f4bbb6dbcf526cc901d07e9301d\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\74d4c1d95e22debf10b72a6b0f186bf8\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\74d4c1d95e22debf10b72a6b0f186bf8\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\4a1a9bd7182a21bbd3b8649f2a3fc1e4\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\4a1a9bd7182a21bbd3b8649f2a3fc1e4\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\b6f2a7f13e1ffa062475463bfac5a0f2\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\b6f2a7f13e1ffa062475463bfac5a0f2\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08f0f3bc9cdab8203fb98e990d58d8e4\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08f0f3bc9cdab8203fb98e990d58d8e4\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\047e3a840826596b05e7159cb30f6672\transformed\jetified-core-ktx-1.17.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\047e3a840826596b05e7159cb30f6672\transformed\jetified-core-ktx-1.17.0\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:6:5-44
+MERGED from [com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:6:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\8a9d3d4f94765eae6fbe57f444653b86\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\8a9d3d4f94765eae6fbe57f444653b86\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\09b1c65abb57fe828d40db31e74af079\transformed\jetified-core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\09b1c65abb57fe828d40db31e74af079\transformed\jetified-core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\2b61a754d2bdb8308da770e0eda8a560\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\2b61a754d2bdb8308da770e0eda8a560\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\1929ed1ddd6f137776f6b7da14defc08\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\1929ed1ddd6f137776f6b7da14defc08\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\5cf52d52f5117a984ce13c3fbc082efa\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\5cf52d52f5117a984ce13c3fbc082efa\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:5.0.5] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\239d5ba7e5b4eb2809f8f3b8491ae276\transformed\jetified-gifdecoder-5.0.5\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:5.0.5] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\239d5ba7e5b4eb2809f8f3b8491ae276\transformed\jetified-gifdecoder-5.0.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\182d6e34342fcafb1d9f9cc20b76aadc\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\182d6e34342fcafb1d9f9cc20b76aadc\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\9a8693ac640f2ecbd8649c0391df8003\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\9a8693ac640f2ecbd8649c0391df8003\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\aa6b23aee1c7f5ede589345d1ee7a049\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\aa6b23aee1c7f5ede589345d1ee7a049\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f95412144d24041b582f62e004449b91\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f95412144d24041b582f62e004449b91\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\154f91bbf18b861399e16d5b2f6e5aec\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\154f91bbf18b861399e16d5b2f6e5aec\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:disklrucache:5.0.5] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\2c782bfda88236f9bf2090a4b359d462\transformed\jetified-disklrucache-5.0.5\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:disklrucache:5.0.5] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\2c782bfda88236f9bf2090a4b359d462\transformed\jetified-disklrucache-5.0.5\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Maverick404\Documents\MeowPrintStore\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:11:9-19:20
+MERGED from [com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:11:9-19:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\9a8693ac640f2ecbd8649c0391df8003\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:24:9-28:34
+MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\9a8693ac640f2ecbd8649c0391df8003\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:24:9-28:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+permission#com.meowprint.store.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+uses-permission#com.meowprint.store.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+meta-data#okhttp3.internal.platform.PlatformInitializer
+ADDED from [com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:16:13-18:52
+	android:value
+		ADDED from [com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:18:17-49
+	android:name
+		ADDED from [com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:17:17-77
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Maverick404\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92

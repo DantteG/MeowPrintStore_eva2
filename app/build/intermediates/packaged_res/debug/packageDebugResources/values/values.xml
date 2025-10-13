@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightGray"/>
+    <color name="primary"/>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_photo_description">Foto de perfil</string>
+</resources>
