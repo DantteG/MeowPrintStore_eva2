@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -26,13 +27,13 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button btnLogin;
 
   @NonNull
-  public final Button btnLogout;
-
-  @NonNull
   public final EditText etEmail;
 
   @NonNull
   public final EditText etPassword;
+
+  @NonNull
+  public final ImageView imgLogo;
 
   @NonNull
   public final ProgressBar progress;
@@ -41,13 +42,13 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView title;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLogin,
-      @NonNull Button btnLogout, @NonNull EditText etEmail, @NonNull EditText etPassword,
+      @NonNull EditText etEmail, @NonNull EditText etPassword, @NonNull ImageView imgLogo,
       @NonNull ProgressBar progress, @NonNull TextView title) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
-    this.btnLogout = btnLogout;
     this.etEmail = etEmail;
     this.etPassword = etPassword;
+    this.imgLogo = imgLogo;
     this.progress = progress;
     this.title = title;
   }
@@ -85,12 +86,6 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btnLogout;
-      Button btnLogout = ViewBindings.findChildViewById(rootView, id);
-      if (btnLogout == null) {
-        break missingId;
-      }
-
       id = R.id.etEmail;
       EditText etEmail = ViewBindings.findChildViewById(rootView, id);
       if (etEmail == null) {
@@ -100,6 +95,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.etPassword;
       EditText etPassword = ViewBindings.findChildViewById(rootView, id);
       if (etPassword == null) {
+        break missingId;
+      }
+
+      id = R.id.imgLogo;
+      ImageView imgLogo = ViewBindings.findChildViewById(rootView, id);
+      if (imgLogo == null) {
         break missingId;
       }
 
@@ -115,8 +116,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnLogin, btnLogout, etEmail,
-          etPassword, progress, title);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnLogin, etEmail, etPassword,
+          imgLogo, progress, title);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -3578,6 +3578,10 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_placeholder
 drawable ic_search_black_24
+drawable image_error
+drawable image_placeholder
+drawable logo_default
+drawable logo_meowprint
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3760,6 +3764,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnAddToCart
 id btnCreate
 id btnLogin
 id btnLogout
@@ -3901,7 +3906,12 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageSlider
 id imgCover
+id imgLogo
+id imgProduct
+id imgProfile
+id imgSlide
 id immediateStop
 id included
 id indeterminate
@@ -4182,6 +4192,10 @@ id triangle
 id tvEmail
 id tvPicked
 id tvPrice
+id tvProductDescription
+id tvProductName
+id tvProductPrice
+id tvProductStock
 id tvTitle
 id tvWelcome
 id unchecked
@@ -4345,10 +4359,12 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_add_product
+layout fragment_display_item
 layout fragment_products
 layout fragment_profile
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_image
 layout item_product
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

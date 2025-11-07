@@ -11,12 +11,16 @@ import androidx.annotation.Nullable;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import androidx.viewpager2.widget.ViewPager2;
 import com.meowprint.store.R;
-import com.meowprint.store.model.product.Product;
+import com.meowprint.store.model.Product;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class ItemProductBinding extends ViewDataBinding {
+  @NonNull
+  public final ViewPager2 imageSlider;
+
   @NonNull
   public final ImageView imgCover;
 
@@ -30,8 +34,9 @@ public abstract class ItemProductBinding extends ViewDataBinding {
   protected Product mP;
 
   protected ItemProductBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ImageView imgCover, TextView tvPrice, TextView tvTitle) {
+      ViewPager2 imageSlider, ImageView imgCover, TextView tvPrice, TextView tvTitle) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.imageSlider = imageSlider;
     this.imgCover = imgCover;
     this.tvPrice = tvPrice;
     this.tvTitle = tvTitle;

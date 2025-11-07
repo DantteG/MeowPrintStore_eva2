@@ -4,7 +4,7 @@
             "outputFile": "com.meowprint.store.app-mergeDebugResources-44:/values-v35/values-v35.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Maverick404\\.gradle\\caches\\9.0-milestone-1\\transforms\\1298414f4d97a083e20357c9a88f4004\\transformed\\material-1.13.0\\res\\values-v35\\values-v35.xml",
+                    "source": "C:\\Users\\arkat\\.gradle\\caches\\9.0-milestone-1\\transforms\\1298414f4d97a083e20357c9a88f4004\\transformed\\material-1.13.0\\res\\values-v35\\values-v35.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

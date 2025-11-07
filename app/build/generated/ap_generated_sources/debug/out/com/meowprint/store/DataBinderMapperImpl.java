@@ -6,6 +6,7 @@ import android.view.View;
 import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
+import com.meowprint.store.databinding.ItemImageBindingImpl;
 import com.meowprint.store.databinding.ItemProductBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
@@ -18,11 +19,14 @@ import java.util.HashMap;
 import java.util.List;
 
 public class DataBinderMapperImpl extends DataBinderMapper {
-  private static final int LAYOUT_ITEMPRODUCT = 1;
+  private static final int LAYOUT_ITEMIMAGE = 1;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(1);
+  private static final int LAYOUT_ITEMPRODUCT = 2;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
 
   static {
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.meowprint.store.R.layout.item_image, LAYOUT_ITEMIMAGE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.meowprint.store.R.layout.item_product, LAYOUT_ITEMPRODUCT);
   }
 
@@ -35,6 +39,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
         throw new RuntimeException("view must have a tag");
       }
       switch(localizedLayoutId) {
+        case  LAYOUT_ITEMIMAGE: {
+          if ("layout/item_image_0".equals(tag)) {
+            return new ItemImageBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for item_image is invalid. Received: " + tag);
+        }
         case  LAYOUT_ITEMPRODUCT: {
           if ("layout/item_product_0".equals(tag)) {
             return new ItemProductBindingImpl(component, view);
@@ -95,9 +105,10 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(1);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
 
     static {
+      sKeys.put("layout/item_image_0", com.meowprint.store.R.layout.item_image);
       sKeys.put("layout/item_product_0", com.meowprint.store.R.layout.item_product);
     }
   }

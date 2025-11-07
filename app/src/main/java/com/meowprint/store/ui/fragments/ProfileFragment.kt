@@ -31,13 +31,14 @@ class ProfileFragment : Fragment() {
         b.tvWelcome.text = "¡Bienvenido, ${tm.getUserName()}!"
         b.tvEmail.text = tm.getUserEmail()
 
-        // Lógica de cierre de sesión
+        // 🔘 Botón de logout (ahora con lógica completa)
         b.btnLogout.setOnClickListener {
             tm.clear()
             Toast.makeText(requireContext(), "Sesión cerrada", Toast.LENGTH_SHORT).show()
 
-            val intent = Intent(requireContext(), MainActivity::class.java)
-            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            val intent = Intent(requireContext(), MainActivity::class.java).apply {
+                flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            }
             startActivity(intent)
         }
     }

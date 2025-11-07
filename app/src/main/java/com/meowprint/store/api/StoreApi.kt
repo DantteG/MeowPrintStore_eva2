@@ -1,6 +1,9 @@
 package com.meowprint.store.api
 
-import com.meowprint.store.model.product.*
+import com.meowprint.store.model.Product
+import com.meowprint.store.model.product.CreateProductRequest
+import com.meowprint.store.model.product.PatchImagesRequest
+import com.meowprint.store.model.product.ImageResource
 import okhttp3.MultipartBody
 import retrofit2.http.*
 

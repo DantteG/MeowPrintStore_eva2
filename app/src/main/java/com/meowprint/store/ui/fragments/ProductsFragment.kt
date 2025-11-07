@@ -8,7 +8,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.meowprint.store.api.RetrofitClient
 import com.meowprint.store.databinding.FragmentProductsBinding
-import com.meowprint.store.model.product.Product
+import com.meowprint.store.model.Product
 import com.meowprint.store.ui.adapter.ProductAdapter
 import kotlinx.coroutines.launch
 
@@ -38,7 +38,6 @@ class ProductsFragment : Fragment() {
                 Toast.makeText(requireContext(), "Error al cargar productos: ${e.message}", Toast.LENGTH_LONG).show()
             }
         }
-
         b.searchView.setOnQueryTextListener(object: android.widget.SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 filterList(query ?: "")

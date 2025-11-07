@@ -43,15 +43,6 @@ class MainActivity : AppCompatActivity() {
             }
             doLogin(email, pass)
         }
-
-        // 🔘 Botón de logout (solo visible si hay sesión activa)
-        b.btnLogout.setOnClickListener {
-            tm.clear()
-            Toast.makeText(this, "Sesión cerrada", Toast.LENGTH_SHORT).show()
-            val intent = Intent(this, MainActivity::class.java)
-            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-            startActivity(intent)
-        }
     }
 
     private fun doLogin(email: String, password: String) {
@@ -65,7 +56,7 @@ class MainActivity : AppCompatActivity() {
                 tm.saveUser(resp.user?.name ?: email.substringBefore("@"), resp.user?.email ?: email)
                 goHome()
             } catch (e: Exception) {
-                Toast.makeText(this@MainActivity, "Login fallido: ${e.message}", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@MainActivity, "Login fallido: Error en el Email o Password, Verifique sus credenciales", Toast.LENGTH_LONG).show()
             } finally {
                 b.progress.visibility = View.GONE
             }

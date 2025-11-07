@@ -1,4 +1,5 @@
-package com.meowprint.store.model.product
+import com.google.gson.annotations.SerializedName
+import com.meowprint.store.model.product.ImageResource
 
 data class Product(
     val id: Int? = null,
@@ -8,6 +9,6 @@ data class Product(
     val stock: Int = 0,
     val brand: String = "",
     val category: String = "",
+    @SerializedName("images")
     val images: List<ImageResource>? = null
 )
-
