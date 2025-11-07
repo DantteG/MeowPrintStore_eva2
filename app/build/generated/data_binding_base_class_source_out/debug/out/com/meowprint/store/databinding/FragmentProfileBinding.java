@@ -5,10 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.LinearLayout;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.meowprint.store.R;
@@ -18,10 +19,13 @@ import java.lang.String;
 
 public final class FragmentProfileBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final Button btnLogout;
+
+  @NonNull
+  public final ImageView imgProfile;
 
   @NonNull
   public final TextView tvEmail;
@@ -29,17 +33,18 @@ public final class FragmentProfileBinding implements ViewBinding {
   @NonNull
   public final TextView tvWelcome;
 
-  private FragmentProfileBinding(@NonNull LinearLayout rootView, @NonNull Button btnLogout,
-      @NonNull TextView tvEmail, @NonNull TextView tvWelcome) {
+  private FragmentProfileBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLogout,
+      @NonNull ImageView imgProfile, @NonNull TextView tvEmail, @NonNull TextView tvWelcome) {
     this.rootView = rootView;
     this.btnLogout = btnLogout;
+    this.imgProfile = imgProfile;
     this.tvEmail = tvEmail;
     this.tvWelcome = tvWelcome;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -70,6 +75,12 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imgProfile;
+      ImageView imgProfile = ViewBindings.findChildViewById(rootView, id);
+      if (imgProfile == null) {
+        break missingId;
+      }
+
       id = R.id.tvEmail;
       TextView tvEmail = ViewBindings.findChildViewById(rootView, id);
       if (tvEmail == null) {
@@ -82,7 +93,8 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileBinding((LinearLayout) rootView, btnLogout, tvEmail, tvWelcome);
+      return new FragmentProfileBinding((ConstraintLayout) rootView, btnLogout, imgProfile, tvEmail,
+          tvWelcome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
