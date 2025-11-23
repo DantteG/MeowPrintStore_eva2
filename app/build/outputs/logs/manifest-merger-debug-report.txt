@@ -1,20 +1,27 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:1:1-22:12
-INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:1:1-22:12
-INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:1:1-22:12
-INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:1:1-22:12
+ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:2:1-36:12
 MERGED from [androidx.databinding:databinding-adapters:8.13.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e6e5217e017e1f572fd71edc9cba3cc8\transformed\databinding-adapters-8.13.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:8.13.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\a9dbaf005d5e49467d20a750779b0da8\transformed\jetified-databinding-ktx-8.13.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.13.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\668f3d9c9016524c5217d82fafc6ece5\transformed\databinding-runtime-8.13.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:viewbinding:8.13.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\db4962434c6dd3821b9ffe1dc849ece7\transformed\jetified-viewbinding-8.13.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1298414f4d97a083e20357c9a88f4004\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f5e300436124ef23a60650af713b4dc7\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:2:1-28:12
+MERGED from [com.google.android.gms:play-services-cast:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ac4059e05d8e18941df6459d35974874\transformed\jetified-play-services-cast-22.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.mediarouter:mediarouter:1.8.0-beta01] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\5976d85e94bfc21498ce8598fec53db9\transformed\mediarouter-1.8.0-beta01\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\5ec5ba24712f277920355d9fa589e734\transformed\jetified-appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\b713e38ec248562f12a668a6c9837ccc\transformed\appcompat-1.7.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.bumptech.glide:glide:5.0.5] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f5ee7e3f07dc536c5a91bb3de68affc4\transformed\jetified-glide-5.0.5\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\8121ec0ae60662bd62eb2ae5f04da255\transformed\recyclerview-1.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\9535e067111ef108324f6a0b17a7cc29\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-flags:18.1.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\431f432df7712ec1065bbd153b3ba5ef\transformed\jetified-play-services-flags-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.3.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\130a0e9c595e2291acfbc5eebe66cd38\transformed\jetified-play-services-tasks-18.3.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\35b2f11470a7bcd747a61439a52a1977\transformed\jetified-play-services-basement-18.9.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\df26cb3009024f5bf1c34d4ce6e253f6\transformed\fragment-1.8.9\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment-ktx:1.8.9] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e887beba56c8625e0b26fb68a24c0b76\transformed\jetified-fragment-ktx-1.8.9\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e5b91655c94bc76aa15e1b4a793455c4\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
@@ -25,8 +32,11 @@ MERGED from [androidx.transition:transition:1.5.0] C:\Users\arkat\.gradle\caches
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e0f42163c48c7e9e88b1da5c710ffdfd\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\5c389585679969e8a5ceb76c7d4fad98\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\071ce98cc40a2afca23d212bb806dd22\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.6.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\d755ff415b88a5d058403d39714b40e7\transformed\media-1.6.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\d400efc25e151e36d3fbb3ad20d8a7cb\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\4ef0cf73bb2107cbfed3bfc036194094\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\b236c1d83f406f23b53a91e6c5da36c5\transformed\palette-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\d77a3f923fde7bc198e7b4d262f98612\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\c7db70e4b806c1e568e05fe4c2b99174\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.17.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1369268760d64f7d2344ac7d6b3b7de4\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
@@ -40,6 +50,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\arkat\.gradl
 MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\a74c9c4df6f45683fbee86c705202985\transformed\jetified-lifecycle-service-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84f645a045cc27049eee6f4eda616486\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\682a06718574e3d7cb75ba283f457f2c\transformed\jetified-lifecycle-livedata-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\65ec4f4bbb6dbcf526cc901d07e9301d\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\74d4c1d95e22debf10b72a6b0f186bf8\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\4a1a9bd7182a21bbd3b8649f2a3fc1e4\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
@@ -55,33 +66,54 @@ MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\arkat\.gradle\caches\9.0
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
 MERGED from [com.github.bumptech.glide:gifdecoder:5.0.5] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\239d5ba7e5b4eb2809f8f3b8491ae276\transformed\jetified-gifdecoder-5.0.5\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\182d6e34342fcafb1d9f9cc20b76aadc\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f3a46e577cb8fafb5b584e2385a896f6\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
 MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\9a8693ac640f2ecbd8649c0391df8003\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\aa6b23aee1c7f5ede589345d1ee7a049\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f95412144d24041b582f62e004449b91\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\0e8c49d6850136c4ce05db59fbd7041e\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\154f91bbf18b861399e16d5b2f6e5aec\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e8d7309a27e4d9eed629c8780baff97a\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\53b4d61d9029f1aaa4e21c8a8a83b1a6\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\8402cabbbe8b07b577262053616a4965\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:disklrucache:5.0.5] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\2c782bfda88236f9bf2090a4b359d462\transformed\jetified-disklrucache-5.0.5\AndroidManifest.xml:2:1-7:12
 	package
-		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:2:5-34
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:4:5-34
 		INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:4:5-66
+ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:6:5-67
 MERGED from [com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:8:5-67
 MERGED from [com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:6:5-21:19
-INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:6:5-21:19
+ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:8:5-34:19
+INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:8:5-34:19
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1298414f4d97a083e20357c9a88f4004\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1298414f4d97a083e20357c9a88f4004\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f5e300436124ef23a60650af713b4dc7\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f5e300436124ef23a60650af713b4dc7\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:18:5-26:19
+MERGED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:18:5-26:19
+MERGED from [com.google.android.gms:play-services-cast:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ac4059e05d8e18941df6459d35974874\transformed\jetified-play-services-cast-22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ac4059e05d8e18941df6459d35974874\transformed\jetified-play-services-cast-22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.3.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\130a0e9c595e2291acfbc5eebe66cd38\transformed\jetified-play-services-tasks-18.3.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.3.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\130a0e9c595e2291acfbc5eebe66cd38\transformed\jetified-play-services-tasks-18.3.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\35b2f11470a7bcd747a61439a52a1977\transformed\jetified-play-services-basement-18.9.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\35b2f11470a7bcd747a61439a52a1977\transformed\jetified-play-services-basement-18.9.0\AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.17.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:28:5-89
@@ -94,40 +126,58 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ar
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\2b61a754d2bdb8308da770e0eda8a560\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:25:5-39:19
 MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\9a8693ac640f2ecbd8649c0391df8003\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\9a8693ac640f2ecbd8649c0391df8003\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:23:5-29:19
 	android:extractNativeLibs
 		INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.17.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:8:9-40
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:11:9-40
+	android:roundIcon
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:10:9-77
-activity#com.meowprint.store.ui.HomeActivity
-ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:11:9-53
-	android:name
-		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:11:19-50
-activity#com.meowprint.store.ui.MainActivity
-ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:12:9-19:20
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:14:9-77
+activity#com.meowprint.store.ui.FallbackActivity
+ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
-		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:14:13-36
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:13:13-44
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:18:13-48
+activity#com.meowprint.store.ui.MainActivity
+ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:22:9-29:20
+	android:exported
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:23:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:15:13-18:29
+ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.meowprint.store.ui.AdminActivity
+ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:32:9-54
+	android:name
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:32:19-51
+activity#com.meowprint.store.ui.ClientActivity
+ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:33:9-55
+	android:name
+		ADDED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:33:19-52
 uses-sdk
 INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml
@@ -144,6 +194,12 @@ MERGED from [com.google.android.material:material:1.13.0] C:\Users\arkat\.gradle
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1298414f4d97a083e20357c9a88f4004\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f5e300436124ef23a60650af713b4dc7\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f5e300436124ef23a60650af713b4dc7\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-cast:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ac4059e05d8e18941df6459d35974874\transformed\jetified-play-services-cast-22.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cast:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ac4059e05d8e18941df6459d35974874\transformed\jetified-play-services-cast-22.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.mediarouter:mediarouter:1.8.0-beta01] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\5976d85e94bfc21498ce8598fec53db9\transformed\mediarouter-1.8.0-beta01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.mediarouter:mediarouter:1.8.0-beta01] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\5976d85e94bfc21498ce8598fec53db9\transformed\mediarouter-1.8.0-beta01\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\5ec5ba24712f277920355d9fa589e734\transformed\jetified-appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\5ec5ba24712f277920355d9fa589e734\transformed\jetified-appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\b713e38ec248562f12a668a6c9837ccc\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
@@ -154,6 +210,14 @@ MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\arkat\.gradle\ca
 MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\8121ec0ae60662bd62eb2ae5f04da255\transformed\recyclerview-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\9535e067111ef108324f6a0b17a7cc29\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\9535e067111ef108324f6a0b17a7cc29\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-flags:18.1.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\431f432df7712ec1065bbd153b3ba5ef\transformed\jetified-play-services-flags-18.1.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-flags:18.1.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\431f432df7712ec1065bbd153b3ba5ef\transformed\jetified-play-services-flags-18.1.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.3.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\130a0e9c595e2291acfbc5eebe66cd38\transformed\jetified-play-services-tasks-18.3.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.3.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\130a0e9c595e2291acfbc5eebe66cd38\transformed\jetified-play-services-tasks-18.3.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\35b2f11470a7bcd747a61439a52a1977\transformed\jetified-play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\35b2f11470a7bcd747a61439a52a1977\transformed\jetified-play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\df26cb3009024f5bf1c34d4ce6e253f6\transformed\fragment-1.8.9\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\df26cb3009024f5bf1c34d4ce6e253f6\transformed\fragment-1.8.9\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment-ktx:1.8.9] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e887beba56c8625e0b26fb68a24c0b76\transformed\jetified-fragment-ktx-1.8.9\AndroidManifest.xml:5:5-44
@@ -174,10 +238,16 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ark
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\5c389585679969e8a5ceb76c7d4fad98\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\071ce98cc40a2afca23d212bb806dd22\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\071ce98cc40a2afca23d212bb806dd22\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\d755ff415b88a5d058403d39714b40e7\transformed\media-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\d755ff415b88a5d058403d39714b40e7\transformed\media-1.6.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\d400efc25e151e36d3fbb3ad20d8a7cb\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\d400efc25e151e36d3fbb3ad20d8a7cb\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\4ef0cf73bb2107cbfed3bfc036194094\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\4ef0cf73bb2107cbfed3bfc036194094\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\b236c1d83f406f23b53a91e6c5da36c5\transformed\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\b236c1d83f406f23b53a91e6c5da36c5\transformed\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\d77a3f923fde7bc198e7b4d262f98612\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\d77a3f923fde7bc198e7b4d262f98612\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\c7db70e4b806c1e568e05fe4c2b99174\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\c7db70e4b806c1e568e05fe4c2b99174\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.17.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f33c727924e234b6ebe516f560bb6eef\transformed\core-1.17.0\AndroidManifest.xml:20:5-44
@@ -204,6 +274,8 @@ MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\arkat\.gra
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84f645a045cc27049eee6f4eda616486\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\682a06718574e3d7cb75ba283f457f2c\transformed\jetified-lifecycle-livedata-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\682a06718574e3d7cb75ba283f457f2c\transformed\jetified-lifecycle-livedata-ktx-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\65ec4f4bbb6dbcf526cc901d07e9301d\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\65ec4f4bbb6dbcf526cc901d07e9301d\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\74d4c1d95e22debf10b72a6b0f186bf8\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
@@ -234,20 +306,78 @@ MERGED from [com.github.bumptech.glide:gifdecoder:5.0.5] C:\Users\arkat\.gradle\
 MERGED from [com.github.bumptech.glide:gifdecoder:5.0.5] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\239d5ba7e5b4eb2809f8f3b8491ae276\transformed\jetified-gifdecoder-5.0.5\AndroidManifest.xml:5:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\182d6e34342fcafb1d9f9cc20b76aadc\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\182d6e34342fcafb1d9f9cc20b76aadc\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f3a46e577cb8fafb5b584e2385a896f6\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f3a46e577cb8fafb5b584e2385a896f6\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
 MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\9a8693ac640f2ecbd8649c0391df8003\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\9a8693ac640f2ecbd8649c0391df8003\transformed\jetified-startup-runtime-1.2.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\aa6b23aee1c7f5ede589345d1ee7a049\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\aa6b23aee1c7f5ede589345d1ee7a049\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f95412144d24041b582f62e004449b91\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\f95412144d24041b582f62e004449b91\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\0e8c49d6850136c4ce05db59fbd7041e\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\0e8c49d6850136c4ce05db59fbd7041e\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\154f91bbf18b861399e16d5b2f6e5aec\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\154f91bbf18b861399e16d5b2f6e5aec\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e8d7309a27e4d9eed629c8780baff97a\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e8d7309a27e4d9eed629c8780baff97a\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\53b4d61d9029f1aaa4e21c8a8a83b1a6\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\53b4d61d9029f1aaa4e21c8a8a83b1a6\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\8402cabbbe8b07b577262053616a4965\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\8402cabbbe8b07b577262053616a4965\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:disklrucache:5.0.5] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\2c782bfda88236f9bf2090a4b359d462\transformed\jetified-disklrucache-5.0.5\AndroidManifest.xml:5:5-44
 MERGED from [com.github.bumptech.glide:disklrucache:5.0.5] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\2c782bfda88236f9bf2090a4b359d462\transformed\jetified-disklrucache-5.0.5\AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
 		INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:12:5-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:12:22-74
+queries
+ADDED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:14:5-16:15
+package#com.google.android.gms.policy_cast_dynamite
+ADDED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:15:9-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:15:18-76
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:20:13-91
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:24:13-85
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\35b2f11470a7bcd747a61439a52a1977\transformed\jetified-play-services-basement-18.9.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\35b2f11470a7bcd747a61439a52a1977\transformed\jetified-play-services-basement-18.9.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\35b2f11470a7bcd747a61439a52a1977\transformed\jetified-play-services-basement-18.9.0\AndroidManifest.xml:22:13-58
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
@@ -346,3 +476,31 @@ action#androidx.profileinstaller.action.BENCHMARK_OPERATION
 ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
 	android:name
 		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:33:13-132

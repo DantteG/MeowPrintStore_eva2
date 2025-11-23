@@ -24,7 +24,10 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button btnLogin;
+  public final Button btnLoginAdmin;
+
+  @NonNull
+  public final Button btnLoginClient;
 
   @NonNull
   public final EditText etEmail;
@@ -41,11 +44,12 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView title;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLogin,
-      @NonNull EditText etEmail, @NonNull EditText etPassword, @NonNull ImageView imgLogo,
-      @NonNull ProgressBar progress, @NonNull TextView title) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLoginAdmin,
+      @NonNull Button btnLoginClient, @NonNull EditText etEmail, @NonNull EditText etPassword,
+      @NonNull ImageView imgLogo, @NonNull ProgressBar progress, @NonNull TextView title) {
     this.rootView = rootView;
-    this.btnLogin = btnLogin;
+    this.btnLoginAdmin = btnLoginAdmin;
+    this.btnLoginClient = btnLoginClient;
     this.etEmail = etEmail;
     this.etPassword = etPassword;
     this.imgLogo = imgLogo;
@@ -80,9 +84,15 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnLogin;
-      Button btnLogin = ViewBindings.findChildViewById(rootView, id);
-      if (btnLogin == null) {
+      id = R.id.btnLoginAdmin;
+      Button btnLoginAdmin = ViewBindings.findChildViewById(rootView, id);
+      if (btnLoginAdmin == null) {
+        break missingId;
+      }
+
+      id = R.id.btnLoginClient;
+      Button btnLoginClient = ViewBindings.findChildViewById(rootView, id);
+      if (btnLoginClient == null) {
         break missingId;
       }
 
@@ -116,8 +126,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnLogin, etEmail, etPassword,
-          imgLogo, progress, title);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnLoginAdmin, btnLoginClient,
+          etEmail, etPassword, imgLogo, progress, title);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

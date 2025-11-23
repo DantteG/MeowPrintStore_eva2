@@ -12,3 +12,10 @@ data class Product(
     @SerializedName("images")
     val images: List<ImageResource>? = null
 )
+
+data class CartItem(
+    val id: Int,
+    val name: String,
+    val price: Double,
+    val quantity: Int = 1
+)
