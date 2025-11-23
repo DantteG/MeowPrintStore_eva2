@@ -1,4 +1,4 @@
-package com.meowprint.store.ui.adapter
+package com.meowprint.store.adapter
 
 import android.util.Log
 import android.view.LayoutInflater
@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.meowprint.store.databinding.ItemImageBinding
 import com.meowprint.store.model.product.ImageResource
-
 
 class ImageSliderAdapter(private val images: List<ImageResource>) : RecyclerView.Adapter<ImageSliderAdapter.ImageViewHolder>() {
 
@@ -19,18 +18,19 @@ class ImageSliderAdapter(private val images: List<ImageResource>) : RecyclerView
     }
 
     override fun onBindViewHolder(holder: ImageViewHolder, position: Int) {
-        val rawUrl = images[position].url?.trim()
-        val imageUrl = rawUrl?.let {
-            if (it.startsWith("http")) it else "https://x8ki-let1-twmt.n7.xano.io$it"
-        }
+        val imageUrl = images[position].url?.trim()
 
         Log.d("ImageSliderAdapter", "Cargando imagen: $imageUrl")
 
-        Glide.with(holder.itemView.context)
-            .load(imageUrl)
-            .thumbnail(0.1f) // 10% de la imagen original
-            .timeout(5000) // ⏱️ máximo 5 segundos de espera
-            .into(holder.b.imgSlide)
+        if (!imageUrl.isNullOrBlank()) {
+            Glide.with(holder.itemView.context)
+                .load(imageUrl)
+                .thumbnail(0.1f)
+                .timeout(5000)
+                .into(holder.b.imgSlide)
+        } else {
+            holder.b.imgSlide.setImageResource(android.R.drawable.ic_menu_report_image)
+        }
     }
 
 

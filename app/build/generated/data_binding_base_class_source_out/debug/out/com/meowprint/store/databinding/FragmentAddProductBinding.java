@@ -26,6 +26,9 @@ public final class FragmentAddProductBinding implements ViewBinding {
   public final Button btnCreate;
 
   @NonNull
+  public final Button btnManagePurchases;
+
+  @NonNull
   public final Button btnPick;
 
   @NonNull
@@ -53,11 +56,13 @@ public final class FragmentAddProductBinding implements ViewBinding {
   public final TextView tvPicked;
 
   private FragmentAddProductBinding(@NonNull ScrollView rootView, @NonNull Button btnCreate,
-      @NonNull Button btnPick, @NonNull EditText etBrand, @NonNull EditText etCategory,
-      @NonNull EditText etDesc, @NonNull EditText etName, @NonNull EditText etPrice,
-      @NonNull EditText etStock, @NonNull ProgressBar progress, @NonNull TextView tvPicked) {
+      @NonNull Button btnManagePurchases, @NonNull Button btnPick, @NonNull EditText etBrand,
+      @NonNull EditText etCategory, @NonNull EditText etDesc, @NonNull EditText etName,
+      @NonNull EditText etPrice, @NonNull EditText etStock, @NonNull ProgressBar progress,
+      @NonNull TextView tvPicked) {
     this.rootView = rootView;
     this.btnCreate = btnCreate;
+    this.btnManagePurchases = btnManagePurchases;
     this.btnPick = btnPick;
     this.etBrand = etBrand;
     this.etCategory = etCategory;
@@ -99,6 +104,12 @@ public final class FragmentAddProductBinding implements ViewBinding {
       id = R.id.btnCreate;
       Button btnCreate = ViewBindings.findChildViewById(rootView, id);
       if (btnCreate == null) {
+        break missingId;
+      }
+
+      id = R.id.btnManagePurchases;
+      Button btnManagePurchases = ViewBindings.findChildViewById(rootView, id);
+      if (btnManagePurchases == null) {
         break missingId;
       }
 
@@ -156,8 +167,8 @@ public final class FragmentAddProductBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentAddProductBinding((ScrollView) rootView, btnCreate, btnPick, etBrand,
-          etCategory, etDesc, etName, etPrice, etStock, progress, tvPicked);
+      return new FragmentAddProductBinding((ScrollView) rootView, btnCreate, btnManagePurchases,
+          btnPick, etBrand, etCategory, etDesc, etName, etPrice, etStock, progress, tvPicked);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

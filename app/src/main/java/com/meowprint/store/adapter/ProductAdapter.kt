@@ -1,4 +1,4 @@
-package com.meowprint.store.ui.adapter
+package com.meowprint.store.adapter
 
 import android.util.Log
 import android.view.LayoutInflater
@@ -12,7 +12,6 @@ import com.meowprint.store.model.Product
 import com.meowprint.store.ui.fragments.DisplayItemFragment
 import android.os.Bundle
 
-
 class ProductAdapter(private var items: List<Product>) : RecyclerView.Adapter<ProductAdapter.ProductViewHolder>() {
 
     inner class ProductViewHolder(val b: ItemProductBinding) : RecyclerView.ViewHolder(b.root)
@@ -25,19 +24,14 @@ class ProductAdapter(private var items: List<Product>) : RecyclerView.Adapter<Pr
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) {
         val product = items[position]
 
-
         // Asignar texto
         holder.b.tvTitle.text = product.name
         holder.b.tvPrice.text = "$${product.price}"
 
-        // Obtener la URL de la primera imagen (si existe)
-        val rawUrl = product.images?.firstOrNull()?.url?.trim()
-        val imageUrl = rawUrl?.let {
-            if (it.startsWith("http")) it else "https://x8ki-let1-twmt.n7.xano.io$it"
-        }
+        // ✅ Usar directamente la URL si está presente
+        val imageUrl = product.images?.firstOrNull()?.url?.trim()
         Log.d("ProductAdapter", "imageUrl: $imageUrl")
 
-        // Cargar imagen con Glide
         if (!imageUrl.isNullOrBlank()) {
             Glide.with(holder.itemView.context)
                 .load(imageUrl)
@@ -48,7 +42,7 @@ class ProductAdapter(private var items: List<Product>) : RecyclerView.Adapter<Pr
             holder.b.imgCover.setImageResource(R.drawable.image_error)
         }
 
-        // Navegación manual al fragmento DisplayItemFragment
+        // Navegación al fragmento DisplayItemFragment
         holder.itemView.setOnClickListener {
             val fragment = DisplayItemFragment()
 

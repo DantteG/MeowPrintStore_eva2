@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.meowprint.store.api.RetrofitClient
 import com.meowprint.store.databinding.FragmentProductsBinding
 import com.meowprint.store.model.Product
-import com.meowprint.store.ui.adapter.ProductAdapter
+import com.meowprint.store.adapter.ProductAdapter
 import kotlinx.coroutines.launch
 
 class ProductsFragment : Fragment() {
@@ -18,7 +18,9 @@ class ProductsFragment : Fragment() {
     private lateinit var adapter: ProductAdapter
     private var master: List<Product> = emptyList()
 
-    private val api by lazy { RetrofitClient.storeRetrofit(requireContext()).create(com.meowprint.store.api.StoreApi::class.java) }
+    private val api by lazy {
+        RetrofitClient.storeRetrofit(requireContext()).create(com.meowprint.store.api.StoreApi::class.java)
+    }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         _b = FragmentProductsBinding.inflate(inflater, container, false)
@@ -32,12 +34,14 @@ class ProductsFragment : Fragment() {
 
         lifecycleScope.launch {
             try {
-                master = api.listProducts(limit = 100, offset = 0, q = null)
+                // ✅ No pasamos q=null, solo limit y offset
+                master = api.listProducts(limit = 100, offset = 0)
                 adapter.submit(master)
             } catch (e: Exception) {
                 Toast.makeText(requireContext(), "Error al cargar productos: ${e.message}", Toast.LENGTH_LONG).show()
             }
         }
+
         b.searchView.setOnQueryTextListener(object: android.widget.SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 filterList(query ?: "")
@@ -52,7 +56,10 @@ class ProductsFragment : Fragment() {
 
     private fun filterList(q: String) {
         val s = q.trim().lowercase()
-        if (s.isEmpty()) { adapter.submit(master); return }
+        if (s.isEmpty()) {
+            adapter.submit(master)
+            return
+        }
         val filtered = master.filter { p ->
             listOf(p.name, p.brand, p.category, p.description).any {
                 (it ?: "").lowercase().contains(s)
@@ -61,5 +68,8 @@ class ProductsFragment : Fragment() {
         adapter.submit(filtered)
     }
 
-    override fun onDestroyView() { _b = null; super.onDestroyView() }
+    override fun onDestroyView() {
+        _b = null
+        super.onDestroyView()
+    }
 }

@@ -1,14 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.meowprint.store">
-
-    <uses-permission android:name="android.permission.INTERNET"/>
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.meowprint.store" >
+    <!-- Permisos -->
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:label="MeowPrint Store"
         android:icon="@mipmap/ic_launcher"
+        android:label="MeowPrint Store"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
-        <activity android:name=".ui.HomeActivity" />
+
+        <!-- Fallback para roles inválidos -->
+        <activity
+            android:name=".ui.FallbackActivity"
+            android:exported="false" />
+
+        <!-- Activity principal (launcher) -->
         <activity
             android:name=".ui.MainActivity"
             android:exported="true">
@@ -18,5 +28,9 @@
             </intent-filter>
         </activity>
 
+        <!-- Actividades por rol -->
+        <activity android:name=".ui.AdminActivity" />
+        <activity android:name=".ui.ClientActivity" />
     </application>
+
 </manifest>

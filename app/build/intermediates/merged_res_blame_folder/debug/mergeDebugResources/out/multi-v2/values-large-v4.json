@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.meowprint.store.app-mergeDebugResources-44:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.meowprint.store.app-mergeDebugResources-51:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\arkat\\.gradle\\caches\\9.0-milestone-1\\transforms\\1298414f4d97a083e20357c9a88f4004\\transformed\\material-1.13.0\\res\\values-large-v4\\values-large-v4.xml",
