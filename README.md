@@ -1,4 +1,6 @@
-MeowPrint Store - Android project (skeleton)
+MeowPrint Store - Android project 
+
+
 Structure
 app/src/main/java/com/meowprint/store/api → Retrofit, TokenManager, APIs
 
