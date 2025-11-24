@@ -54,176 +54,175 @@
 34-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:12:9-54
 35        android:supportsRtl="true"
 35-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:13:9-35
-36        android:testOnly="true"
-37        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" >
-37-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:14:9-77
-38
-39        <!-- Fallback para roles inválidos -->
-40        <activity
-40-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:17:9-19:40
-41            android:name="com.meowprint.store.ui.FallbackActivity"
-41-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:18:13-48
-42            android:exported="false" />
-42-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:19:13-37
-43
-44        <!-- Activity principal (launcher) -->
-45        <activity
-45-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:22:9-29:20
-46            android:name="com.meowprint.store.ui.MainActivity"
-46-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:23:13-44
-47            android:exported="true" >
-47-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:24:13-36
-48            <intent-filter>
-48-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:25:13-28:29
-49                <action android:name="android.intent.action.MAIN" />
-49-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:26:17-69
-49-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:26:25-66
-50
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:27:17-77
-51-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:27:27-74
-52            </intent-filter>
-53        </activity>
-54
-55        <!-- Actividades por rol -->
-56        <activity android:name="com.meowprint.store.ui.AdminActivity" />
-56-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:32:9-54
-56-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:32:19-51
-57        <activity android:name="com.meowprint.store.ui.ClientActivity" />
-57-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:33:9-55
-57-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:33:19-52
-58
-59        <receiver
-59-->[com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:19:9-21:40
-60            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
-60-->[com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:20:13-91
-61            android:exported="false" />
-61-->[com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:21:13-37
-62
-63        <service
-63-->[com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:23:9-25:40
-64            android:name="com.google.android.gms.cast.framework.ReconnectionService"
-64-->[com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:24:13-85
-65            android:exported="false" />
-65-->[com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:25:13-37
-66
-67        <activity
-67-->[com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:20:9-22:45
-68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-68-->[com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:20:19-85
-69            android:exported="false"
-69-->[com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:22:19-43
-70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-70-->[com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:21:19-78
-71
-72        <meta-data
-72-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\35b2f11470a7bcd747a61439a52a1977\transformed\jetified-play-services-basement-18.9.0\AndroidManifest.xml:21:9-23:69
-73            android:name="com.google.android.gms.version"
-73-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\35b2f11470a7bcd747a61439a52a1977\transformed\jetified-play-services-basement-18.9.0\AndroidManifest.xml:22:13-58
-74            android:value="@integer/google_play_services_version" />
-74-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\35b2f11470a7bcd747a61439a52a1977\transformed\jetified-play-services-basement-18.9.0\AndroidManifest.xml:23:13-66
-75
-76        <provider
-76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-77            android:name="androidx.startup.InitializationProvider"
-77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
-78            android:authorities="com.meowprint.store.androidx-startup"
-78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
-79            android:exported="false" >
-79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
-80            <meta-data
-80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
-82                android:value="androidx.startup" />
-82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
-83            <meta-data
-83-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-84-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-85                android:value="androidx.startup" />
-85-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-86            <meta-data
-86-->[com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:16:13-18:52
-87                android:name="okhttp3.internal.platform.PlatformInitializer"
-87-->[com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:17:17-77
-88                android:value="androidx.startup" />
-88-->[com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:18:17-49
-89            <meta-data
-89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
-90                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
-91                android:value="androidx.startup" />
-91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
-92        </provider>
-93
-94        <receiver
-94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-95            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
-96            android:directBootAware="false"
-96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
-97            android:enabled="true"
-97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-98            android:exported="true"
-98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-99            android:permission="android.permission.DUMP" >
-99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
-100            <intent-filter>
-100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
-101                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
-102            </intent-filter>
-103            <intent-filter>
-103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
-104                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
-105            </intent-filter>
-106            <intent-filter>
-106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
-107                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
-108            </intent-filter>
-109            <intent-filter>
-109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
-110                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-111            </intent-filter>
-112        </receiver>
-113
-114        <service
-114-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:29:9-35:19
-115            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-115-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:30:13-103
-116            android:exported="false" >
-116-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:31:13-37
-117            <meta-data
-117-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:32:13-34:39
-118                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-118-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:33:17-94
-119                android:value="cct" />
-119-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:34:17-36
-120        </service>
-121        <service
-121-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:26:9-30:19
-122            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-122-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:27:13-117
-123            android:exported="false"
-123-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:28:13-37
-124            android:permission="android.permission.BIND_JOB_SERVICE" >
-124-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:29:13-69
-125        </service>
-126
-127        <receiver
-127-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:32:9-34:40
-128            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-128-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:33:13-132
-129            android:exported="false" />
-129-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:34:13-37
-130    </application>
-131
-132</manifest>
+36        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" >
+36-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:14:9-77
+37
+38        <!-- Fallback para roles inválidos -->
+39        <activity
+39-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:17:9-19:40
+40            android:name="com.meowprint.store.ui.FallbackActivity"
+40-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:18:13-48
+41            android:exported="false" />
+41-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:19:13-37
+42
+43        <!-- Activity principal (launcher) -->
+44        <activity
+44-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:22:9-29:20
+45            android:name="com.meowprint.store.ui.MainActivity"
+45-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:23:13-44
+46            android:exported="true" >
+46-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:24:13-36
+47            <intent-filter>
+47-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:25:13-28:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:26:17-69
+48-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:26:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:27:17-77
+50-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:27:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <!-- Actividades por rol -->
+55        <activity android:name="com.meowprint.store.ui.AdminActivity" />
+55-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:32:9-54
+55-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:32:19-51
+56        <activity android:name="com.meowprint.store.ui.ClientActivity" />
+56-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:33:9-55
+56-->C:\Users\arkat\StudioProjects\MeowPrintStore_eva2\app\src\main\AndroidManifest.xml:33:19-52
+57
+58        <receiver
+58-->[com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:19:9-21:40
+59            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+59-->[com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:20:13-91
+60            android:exported="false" />
+60-->[com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:21:13-37
+61
+62        <service
+62-->[com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:23:9-25:40
+63            android:name="com.google.android.gms.cast.framework.ReconnectionService"
+63-->[com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:24:13-85
+64            android:exported="false" />
+64-->[com.google.android.gms:play-services-cast-framework:22.2.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\41b264116d1ad2f82471c2a1e494f40c\transformed\jetified-play-services-cast-framework-22.2.0\AndroidManifest.xml:25:13-37
+65
+66        <activity
+66-->[com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:20:9-22:45
+67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+67-->[com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:20:19-85
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:22:19-43
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->[com.google.android.gms:play-services-base:18.7.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\87a6d8e92a246a0325d9320cb8059631\transformed\jetified-play-services-base-18.7.2\AndroidManifest.xml:21:19-78
+70
+71        <meta-data
+71-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\35b2f11470a7bcd747a61439a52a1977\transformed\jetified-play-services-basement-18.9.0\AndroidManifest.xml:21:9-23:69
+72            android:name="com.google.android.gms.version"
+72-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\35b2f11470a7bcd747a61439a52a1977\transformed\jetified-play-services-basement-18.9.0\AndroidManifest.xml:22:13-58
+73            android:value="@integer/google_play_services_version" />
+73-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\35b2f11470a7bcd747a61439a52a1977\transformed\jetified-play-services-basement-18.9.0\AndroidManifest.xml:23:13-66
+74
+75        <provider
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+76            android:name="androidx.startup.InitializationProvider"
+76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+77            android:authorities="com.meowprint.store.androidx-startup"
+77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+78            android:exported="false" >
+78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+81                android:value="androidx.startup" />
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\08adda17448b2831011754b4b4ef6a22\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+84                android:value="androidx.startup" />
+84-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\e79dc223a70972391f39141730259c6b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:16:13-18:52
+86                android:name="okhttp3.internal.platform.PlatformInitializer"
+86-->[com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:17:17-77
+87                android:value="androidx.startup" />
+87-->[com.squareup.okhttp3:okhttp-android:5.2.1] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\95505abcd37d142904ec3c8b7d9a77c9\transformed\jetified-okhttp-release\AndroidManifest.xml:18:17-49
+88            <meta-data
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+90                android:value="androidx.startup" />
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+91        </provider>
+92
+93        <receiver
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+94            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+95            android:directBootAware="false"
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+96            android:enabled="true"
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+97            android:exported="true"
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+98            android:permission="android.permission.DUMP" >
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+100                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+103                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+106                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+109                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\ddf49cbe128ea16e353ca326dc4a2f69\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+110            </intent-filter>
+111        </receiver>
+112
+113        <service
+113-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:29:9-35:19
+114            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+114-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:30:13-103
+115            android:exported="false" >
+115-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:31:13-37
+116            <meta-data
+116-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:32:13-34:39
+117                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+117-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:33:17-94
+118                android:value="cct" />
+118-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\84dcc4bdd9f4e47995e11c71343da868\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:34:17-36
+119        </service>
+120        <service
+120-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:26:9-30:19
+121            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+121-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:27:13-117
+122            android:exported="false"
+122-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:28:13-37
+123            android:permission="android.permission.BIND_JOB_SERVICE" >
+123-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:29:13-69
+124        </service>
+125
+126        <receiver
+126-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:32:9-34:40
+127            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+127-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:33:13-132
+128            android:exported="false" />
+128-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\arkat\.gradle\caches\9.0-milestone-1\transforms\1aa3c4d317cafa0ff56c6acb23d7125a\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:34:13-37
+129    </application>
+130
+131</manifest>
