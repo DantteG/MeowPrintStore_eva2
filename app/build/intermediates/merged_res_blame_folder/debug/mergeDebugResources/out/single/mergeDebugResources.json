@@ -12,6 +12,10 @@
         "source": "C:\\Users\\arkat\\.gradle\\daemon\\9.0-milestone-1\\com.meowprint.store.app-main-55:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.meowprint.store.app-debug-53:/layout_fragment_display_item.xml.flat",
+        "source": "com.meowprint.store.app-main-55:/layout/fragment_display_item.xml"
+    },
+    {
         "merged": "C:\\Users\\arkat\\.gradle\\daemon\\9.0-milestone-1\\com.meowprint.store.app-debug-53:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\arkat\\.gradle\\daemon\\9.0-milestone-1\\com.meowprint.store.app-main-55:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
@@ -46,10 +50,6 @@
     {
         "merged": "C:\\Users\\arkat\\.gradle\\daemon\\9.0-milestone-1\\com.meowprint.store.app-debug-53:\\drawable_ic_placeholder.xml.flat",
         "source": "C:\\Users\\arkat\\.gradle\\daemon\\9.0-milestone-1\\com.meowprint.store.app-main-55:\\drawable\\ic_placeholder.xml"
-    },
-    {
-        "merged": "com.meowprint.store.app-debug-53:/layout_activity_admin.xml.flat",
-        "source": "com.meowprint.store.app-main-55:/layout/activity_admin.xml"
     },
     {
         "merged": "C:\\Users\\arkat\\.gradle\\daemon\\9.0-milestone-1\\com.meowprint.store.app-debug-53:\\layout_fragment_products.xml.flat",
@@ -94,10 +94,6 @@
     {
         "merged": "C:\\Users\\arkat\\.gradle\\daemon\\9.0-milestone-1\\com.meowprint.store.app-debug-53:\\layout_fragment_manage_purchases.xml.flat",
         "source": "C:\\Users\\arkat\\.gradle\\daemon\\9.0-milestone-1\\com.meowprint.store.app-main-55:\\layout\\fragment_manage_purchases.xml"
-    },
-    {
-        "merged": "com.meowprint.store.app-debug-53:/layout_activity_client.xml.flat",
-        "source": "com.meowprint.store.app-main-55:/layout/activity_client.xml"
     },
     {
         "merged": "C:\\Users\\arkat\\.gradle\\daemon\\9.0-milestone-1\\com.meowprint.store.app-debug-53:\\layout_activity_admin.xml.flat",

@@ -68,6 +68,10 @@
         "source": "C:\\Users\\arkat\\.gradle\\daemon\\9.0-milestone-1\\com.meowprint.store.app-main-55:\\layout\\fragment_display_item.xml"
     },
     {
+        "merged": "com.meowprint.store.app-mergeDebugResources-52:/layout/fragment_display_item.xml",
+        "source": "com.meowprint.store.app-main-55:/layout/fragment_display_item.xml"
+    },
+    {
         "merged": "C:\\Users\\arkat\\.gradle\\daemon\\9.0-milestone-1\\com.meowprint.store.app-mergeDebugResources-52:\\layout\\activity_cart.xml",
         "source": "C:\\Users\\arkat\\.gradle\\daemon\\9.0-milestone-1\\com.meowprint.store.app-main-55:\\layout\\activity_cart.xml"
     },
@@ -80,15 +84,7 @@
         "source": "C:\\Users\\arkat\\.gradle\\daemon\\9.0-milestone-1\\com.meowprint.store.app-main-55:\\layout\\activity_client.xml"
     },
     {
-        "merged": "com.meowprint.store.app-mergeDebugResources-52:/layout/activity_admin.xml",
-        "source": "com.meowprint.store.app-main-55:/layout/activity_admin.xml"
-    },
-    {
         "merged": "C:\\Users\\arkat\\.gradle\\daemon\\9.0-milestone-1\\com.meowprint.store.app-mergeDebugResources-52:\\layout\\fragment_manage_purchases.xml",
         "source": "C:\\Users\\arkat\\.gradle\\daemon\\9.0-milestone-1\\com.meowprint.store.app-main-55:\\layout\\fragment_manage_purchases.xml"
-    },
-    {
-        "merged": "com.meowprint.store.app-mergeDebugResources-52:/layout/activity_client.xml",
-        "source": "com.meowprint.store.app-main-55:/layout/activity_client.xml"
     }
 ]
