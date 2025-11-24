@@ -45,6 +45,8 @@ El código es un skeleton funcional adaptado a tus endpoints de Xano.
 
 Si el campo de respuesta del login para el token difiere, actualiza la extracción del token en MainActivity.
 
+Perfil de cliente: miau@gmail.com password: 12345
+
 El perfil de administrador usa credenciales fijas:
 
 Contraseña: 1111
